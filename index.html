@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/pruebacss.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Poppins:wght@100;500&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <title>Hoteles Hilton</title>
+    <meta name="Descripcion" content="Cadenas de hoteles Hilton Buenos Aires, Argentina">
+    <meta name="Palabras Claves"  content="Hoteles, Hoteles Oferta, Hilton, Viajes">
+</head>
+<body>
+<header>
+    <img id="logo" src="fotos/Logo.png" alt="Logo, Hilton">
+<!-- Inicio Nav Bootstrap-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hilton</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hoteles.html">Hoteles</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="instalaciones.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Instalaciones
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a class="dropdown-item" href="instalaciones.html">Habitacion Deluxe</a></li>
+               <li><a class="dropdown-item" href="instalaciones.html">Habitacion Ejecutiva</a></li>
+               <li><a class="dropdown-item" href="instalaciones.html">Suite</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="instalaciones.html">Restaurante El Faro</a></li>
+               <li><a class="dropdown-item" href="instalaciones.html">Alberto's lobby bar</a></li>
+               <li><a class="dropdown-item" href="instalaciones.html">Croûtons Grab'N Go</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="instalaciones.html">Servicios</a></li>
+             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reserva.html">Reserva</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- Fin Nav Bootstrap-->       
+</header>
+    <main>
+<!-- Inicio de Carousel-->      
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="fotos/Hotel1.jpg" class="d-block w-100" alt="Hotel">
+          </div>
+          <div class="carousel-item">
+            <img src="Fotos/Hotel2.jpg" class="d-block w-100" alt="Hotel">
+          </div>
+          <div class="carousel-item">
+            <img src="Fotos/Hotel3.jpeg" class="d-block w-100" alt="Hotel">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- Fin de Carousel-->     
+    </main>
+ 
+
+
+    <footer class="footer"> <!-- Bloque Footer-->    
+      <p class="footer__item">Av. Macacha Guemes 351 Buenos Aires, C1106BKG Argentina</p>        
+      <p class="footer__item"> Teléfono: 54-11-4891-0000 - Fax: 54-11-4891-0001</p>
+      <p class="footer__item">Correo electrónico: reservations.buenosaires@hilton.com</p>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

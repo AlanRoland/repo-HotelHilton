@@ -1,0 +1,209 @@
+body {
+  background-color: #a58f8f; }
+
+nav {
+  width: 100%; }
+
+.footer {
+  background-color: #797979;
+  position: relative;
+  bottom: 0px;
+  border-style: solid;
+  border-color: #030101;
+  border-radius: 1px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-between; }
+  .footer p {
+    font-size: 50%;
+    color: white;
+    min-block-size: 9px; }
+
+img {
+  width: 30%;
+  margin: 10px; }
+
+#logo {
+  margin: 5px;
+  max-width: 15%;
+  min-width: 30%; }
+
+.titulos {
+  margin: 0;
+  padding: 10px;
+  font-size: 40px;
+  text-decoration: none;
+  position: relative; }
+
+.bloqueHotel {
+  background-color: #adadad; }
+  .bloqueHotel .bloqueHotel__titulo {
+    padding: 10px;
+    margin: 0;
+    font-size: 40px;
+    color: black; }
+  .bloqueHotel .bloqueHotel__texto {
+    padding: 10px;
+    margin: 0;
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .bloqueHotel .bloqueHotel__img {
+    width: 30%;
+    margin: 10px; }
+
+.habitaciones .habitaciones__texto {
+  padding: 0%;
+  margin: 5px;
+  font-size: 25px; }
+
+.habitaciones .habitaciones__lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  flex-wrap: nowrap; }
+
+.habitaciones .habitaciones__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 10px;
+  text-align: justify; }
+
+.img__habitaciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px; }
+
+.bares .bares__titulo {
+  padding: 0%;
+  margin: 5px;
+  font-size: 25px; }
+
+.bares .bares__lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  flex-wrap: nowrap; }
+
+.bares .bares__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 10px;
+  text-align: justify; }
+
+.estilosSubtitulos {
+  padding: 0%;
+  margin: 5px;
+  font-size: 25px; }
+
+.servicios {
+  width: 30%;
+  border: black;
+  border-style: solid;
+  background-color: #cacaca;
+  margin: 5px;
+  max-width: 40%;
+  min-width: 200px; }
+  .servicios .servicios__texto {
+    padding: 0%;
+    margin: 5px;
+    font-size: 25px; }
+  .servicios .servicio__lista {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 10px;
+    text-align: justify; }
+  .servicios .servicios__item {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    list-style: symbols();
+    font-size: 12px; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  position: relative;
+  margin: 10px;
+  width: 400px;
+  background-color: gray;
+  border-style: solid;
+  border-color: black;
+  max-width: 40%;
+  min-width: 300px; }
+  .formulario .fomrulario__contenido {
+    margin: 10px;
+    width: 400px;
+    max-width: 40%;
+    min-width: 200px; }
+  .formulario .formulario__img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 95%; }
+  .formulario .fomrulario__texto {
+    padding: 0%;
+    margin: 5px;
+    font-size: 16px; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  position: relative;
+  margin: 10px;
+  width: 400px;
+  background-color: gray;
+  border-style: solid;
+  border-color: black;
+  max-width: 40%;
+  min-width: 300px; }
+  .contacto .contacto__img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 95%; }
+  .contacto .contacto__texto {
+    padding: 0%;
+    margin: 5px;
+    font-size: 16px; }
+  .contacto .contacto__cuadro {
+    margin: 5px; }
+
+@media (min-width: 140px) {
+  main {
+    color: #fcfcfc;
+    flex-direction: column; }
+  .servicios {
+    width: 350px;
+    border: #dd1a1a;
+    border-style: solid;
+    background-color: #cacaca;
+    margin: 5px; } }
+
+@media (min-width: 768px) {
+  main {
+    color: #e49595; } }
+
+@media (min-width: 1024px) {
+  main {
+    color: #3a3a3a; } }
+
+@media (min-width: 1200px) {
+  main {
+    color: #050505; } }
